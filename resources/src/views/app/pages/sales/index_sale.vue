@@ -141,36 +141,6 @@
                   <i class="nav-icon i-Add font-weight-bold mr-2"></i>
                   {{$t('AddPenalty')}}
                 </b-dropdown-item>
-
-                <!-- <b-dropdown-item
-                    v-if="currentUserPermissions.includes('shipment')"
-                    @click="Edit_Shipment(props.row.id)"
-                >
-                  <i class="nav-icon i-Pen-2 font-weight-bold mr-2"></i>
-                  {{$t('Edit_Shipping')}}
-                </b-dropdown-item>
-
-
-                <b-dropdown-item title="Invoice" @click="Invoice_POS(props.row.id)">
-                  <i class="nav-icon i-File-TXT font-weight-bold mr-2"></i>
-                  {{$t('Invoice_POS')}}
-                </b-dropdown-item> -->
-
-                <!-- <b-dropdown-item title="PDF" @click="Invoice_PDF(props.row , props.row.id)">
-                  <i class="nav-icon i-File-TXT font-weight-bold mr-2"></i>
-                  {{$t('DownloadPdf')}}
-                </b-dropdown-item>
-
-                <b-dropdown-item title="Email" @click="Send_Email(props.row.id)">
-                  <i class="nav-icon i-Envelope-2 font-weight-bold mr-2"></i>
-                  {{$t('email_notification')}}
-                </b-dropdown-item>
-
-                 <b-dropdown-item title="SMS" @click="Sale_SMS(props.row.id)">
-                  <i class="nav-icon i-Speach-Bubble font-weight-bold mr-2"></i>
-                  {{$t('sms_notification')}}
-                </b-dropdown-item> -->
-
                 <b-dropdown-item
                     title="Delete"
                     v-if="currentUserPermissions.includes('Sales_delete')"
