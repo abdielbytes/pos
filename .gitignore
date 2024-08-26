@@ -1,0 +1,56 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.backup
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor directories
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Build artifacts
+/public/
+/public/hot
+/public/js/bundle
+/public/images/vendor
+/public/js/main.js
+/public/storage
+/storage/*.key
+/storage/framework/sessions
+
+# Composer dependencies
+/vendor/
+composer.lock
+
+# Laravel-specific files
+bootstrap/cache/
+database/*.sqlite
+phpunit.xml
+.phpunit.result.cache
+
+# Docker files
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+
+# Ignore downloaded and unnecessary files
+Downloaded from CAMPCODES.COM.url
+bash.exe.stackdump
+goodiesrides.zip
+engine
