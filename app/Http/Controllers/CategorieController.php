@@ -66,12 +66,8 @@ class CategorieController extends BaseController
         return response()->json(['success' => true]);
     }
 
-     //------------ function show -----------\\
 
-    public function show($id){
-        //
     
-    }
 
     //-------------- Update Category ---------------\\
 

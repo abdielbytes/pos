@@ -89,12 +89,6 @@ class BrandsController extends Controller
 
     }
 
-     //------------ function show -----------\\
-
-     public function show($id){
-        //
-    
-    }
 
      //---------------- UPDATE Brand -------------\\
 

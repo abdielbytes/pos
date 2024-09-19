@@ -75,12 +75,7 @@ class CategoryExpenseController extends BaseController
         return response()->json(['success' => true], 200);
     }
 
-    //------------ function show -----------\\
 
-    public function show($id){
-    //
-    
-    }
 
     //-------------- Update Category ---------------\\
 

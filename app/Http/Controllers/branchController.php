@@ -113,12 +113,7 @@ class branchController extends Controller
         return response()->json(['success' => true]);
     }
 
-    //------------ function show -----------\\
 
-    public function show($id){
-        //
-        
-        }
 
     //-----------Update branch --------------\\
 
